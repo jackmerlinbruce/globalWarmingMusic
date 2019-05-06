@@ -1,0 +1,72 @@
+a { color: white; }
+
+.startMessage {
+    font-family: 'Rubik', sans-serif;
+    opacity: 0.3;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 5vw;
+    color: white;
+    text-align: center;
+    transform: translate(0, -200%);
+    /* display: flex; */
+}
+
+.footer {
+    position: fixed;
+    opacity: 0.3;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background-color: red; */
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+.boob {
+    font-family: 'Rubik', sans-serif;
+    flex: 1;
+    font-weight: 100;
+    font-size: 1.1vw;
+}
+
+.temperatureLabel {
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    font-weight: bolder;
+    font-size: 15vh;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.3;
+    
+}
+
+.temperatureLabel.text {
+    font-weight: bolder;
+    font-size: 5vh;
+}
+
+body {
+    transition: background-color 0.25s ease;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    font-size: 40vh;
+    color: white;
+    opacity: 0.7;
+    margin: 0px;
+    padding: 0px;
+
+    /* line-height: 100vh;
+    vertical-align: middle; */
+};
+
+
+
