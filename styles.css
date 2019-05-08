@@ -1,5 +1,39 @@
 a { color: white; }
 
+.legend {
+    position: fixed;
+    /*left: 0;*/
+    /*bottom: 0;*/
+    width: 100%;
+    display: flex;
+    transform: scale(0.7);
+    margin-top: 30px;
+}
+.legendLabel {
+    font-family: 'Rubik', sans-serif;
+    flex: 1;
+    font-weight: 100;
+    font-size: 1.1vw;
+    color: white;
+}
+.legendLabel.low {
+    text-align: right;
+    padding-right: 1vw;
+    opacity: 0.6;
+}
+.legendLabel.high {
+    text-align: left;
+    padding-left: 1vw;
+    opacity: 0.6;
+}
+#gradient {
+    /*width: 2.5vw;*/
+    /*height: 30px;*/
+    border-radius: 10px 10px 10px 10px;
+    /* position: absolute; */
+    /*transform: rotate(-90deg);*/
+}
+
 .startMessage {
     font-family: 'Rubik', sans-serif;
     opacity: 0.3;
@@ -15,7 +49,6 @@ a { color: white; }
 
 .footer {
     position: fixed;
-    opacity: 0.3;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -30,6 +63,7 @@ a { color: white; }
     flex: 1;
     font-weight: 100;
     font-size: 1.1vw;
+    opacity: 0.6;
 }
 
 .temperatureLabel {
@@ -66,7 +100,7 @@ h1 {
 
     /* line-height: 100vh;
     vertical-align: middle; */
-};
+}
 
 
 
